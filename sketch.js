@@ -29,10 +29,10 @@ function draw() {
   if (hearts.length > 60) {
   	hearts.shift();
   }
-  textSize(width/22);
-  fill(0, 200, 200);
+  textSize(width/20);
+  fill(50);
   textAlign(CENTER, CENTER);
-  text('Sal jy my meisie wees Isabelle?',width/2,height/2);
+  text('Isabelle, sal jy my meisie wees?',width/2,height/2);
 }
 
 function mousePressed() {
