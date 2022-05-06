@@ -29,7 +29,7 @@ function draw() {
   if (hearts.length > 60) {
   	hearts.shift();
   }
-  textSize(width/25);
+  textSize(width/22);
   fill(0, 200, 200);
   textAlign(CENTER, CENTER);
   text('Sal jy my meisie wees Isabelle?',width/2,height/2);
@@ -37,7 +37,7 @@ function draw() {
 
 function mousePressed() {
  
-  var d = random(20, 150);
+  var d = random(20, 70);
   var c = color(random(255), 240, random(255));
   var s = random(0.2, 3);
 	var newCircle = new DrawCircle(mouseX, mouseY, d, c, s);
