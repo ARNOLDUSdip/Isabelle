@@ -33,6 +33,7 @@ function draw() {
   fill(50);
   textAlign(CENTER, CENTER);
   text('Isabelle, sal jy my meisie wees?',width/2,height/2);
+  text('10 Maande!!!',width/2,heigt/2 + 100);
 }
 
 function mousePressed() {
